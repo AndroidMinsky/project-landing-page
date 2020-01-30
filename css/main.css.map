@@ -1,0 +1,18 @@
+{
+    "version": 3,
+    "mappings": "ACCA,AAAA,KAAK,CAAC;EACJ,eAAe,CAAA,KAAC;EAChB,iBAAiB,CAAA,KAAC;CACnB;;AAGD,AAAA,CAAC;AACD,CAAC,AAAA,QAAQ;AACT,CAAC,AAAA,OAAO,CAAC;EACP,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,OAAO;CACpB;;AAED,AAAA,IAAI,CAAC;EACH,UAAU,EAAE,UAAU;EACtB,SAAS,EAAE,KAAK;CACjB;;AAED,AAAA,IAAI,CAAC;EACH,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,mBAAmB;EAChC,gBAAgB,EAAE,sBAAsB;CACzC",
+    "sources": [
+        "../scss/main.scss",
+        "../scss/_base.scss",
+        "../scss/_typography.scss",
+        "../scss/_about.scss",
+        "../scss/_clients.scss",
+        "../scss/_features.scss",
+        "../scss/_footer.scss",
+        "../scss/_header.scss",
+        "../scss/_rating.scss",
+        "../scss/_testimonials.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
