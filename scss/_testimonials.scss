@@ -1,0 +1,15 @@
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 4rem;
+
+  margin-bottom: var(--mb-xl);
+
+  &__item {
+    height: 25rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 1rem 2rem #dde9ff;
+    // border: 2px solid #000;
+  }
+}

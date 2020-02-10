@@ -68,6 +68,7 @@
   &__text {
     font-size: 2rem;
     margin-bottom: 4rem;
+    color: #777;
   }
 
   &__hero {
@@ -77,6 +78,7 @@
   &__img {
     width: 90%;
     justify-self: end;
+    filter: drop-shadow(0 2rem 2rem rgba(0, 0, 0, .3));
   }
 }
 

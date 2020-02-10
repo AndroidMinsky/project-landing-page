@@ -1,0 +1,52 @@
+.blog {
+  margin-bottom: var(--mb-xl);
+
+  &__heading {
+    text-align: center;
+    margin-bottom: 8rem;
+  }
+
+  &__posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 3rem;
+  }
+
+  &__post {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, min-content);
+    grid-row-gap: 2rem;
+  }
+
+  &__post--1 {
+    background-color: #fdf2f2;
+    border-radius: 1rem;
+  }
+
+  &__post--2 {
+    background-color: #e4f3eb;
+    border-radius: 1rem;
+  }
+
+  &__post--3 {
+    background-color: #eaf2ff; 
+    border-radius: 1rem;
+  }
+
+  &__img {
+    width: 70%;
+    padding: 3rem;
+
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+
+  &__text {
+    grid-column: 1 / -1;
+  }
+
+  &__btn {
+    grid-row: 4;
+  }
+}
