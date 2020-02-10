@@ -1,0 +1,27 @@
+.download {
+  display: grid;
+  grid-template-columns: minmax(36.5vw, 1fr) 1fr;
+  grid-column-gap: 5rem;
+  justify-items: center;
+  align-items: center;
+
+  &__img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__text {
+    font-size: 2rem;
+    margin: 3rem 0;
+  }
+
+  &__btn--1 {
+    height: 5rem;
+    margin-right: 1rem;
+  }
+
+  &__btn--2 {
+    height: 5rem;
+  }
+}
