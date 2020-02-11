@@ -1,15 +1,70 @@
 .testimonials {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 4rem;
-
   margin-bottom: var(--mb-xl);
 
-  &__item {
-    height: 25rem;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 1rem 2rem #dde9ff;
-    // border: 2px solid #000;
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+  }
+
+  &__intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 10rem;
+
+    &__heading {
+      
+    }
+
+    &__text {
+      font-size: 1.6rem;
+      margin-top: 2rem;
+    }
+  }
+
+  &__review {
+    background-color: #e4f3eb;
+    padding: 3rem;
+    border-radius: 1rem;
+
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-gap: 2rem;
+
+    &__text {
+      grid-column: 1 / -1;
+      font-size: 1.5rem;
+    }
+  }
+
+  &__img {
+    width: 8rem;
+    border-radius: 50%;
+  }
+
+  &__rating {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+
+  &__stars {
+    display: flex;
+    align-content: center;
+    margin-bottom: 1rem;
+  }
+
+  &__icon {
+    height: 2rem;
+    width: 2rem;
+    fill: #f39200;
+    margin: 0;
+    align-self: center;
+  }
+
+  &__name {
+    font-size: 1.2rem;
+    text-transform: uppercase;
   }
 }
