@@ -31,15 +31,21 @@ body {
 }
 
 .container {
-  max-width: 120rem;
+  max-width: 130rem;
   margin: 0 auto;
+  padding: 0 5rem;
 }
 
 .main {
   margin-top: 5rem;
-  // height: 350rem;
   background-image: url(/img/bg-main-1.png);
   background-color: #fff;
   background-repeat: no-repeat;
   background-position: top center;
+}
+
+.footer {
+  background-color: #ebf3ff;
+  background-image: url(/img/bg-footer.png);
+  background-repeat: no-repeat;
 }
