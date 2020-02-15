@@ -1,6 +1,6 @@
 .header {
   min-height: 80vh;
-  background-image: url(/img/header-bg.png);
+  background-image: url(/img/bg-header-3.png);
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,7 +41,7 @@
     display: flex;
     align-items: center;
 
-    color: #333;
+    color: var(--color-blue-dark);
     text-decoration: none;
     font-weight: 400;
   }
@@ -50,7 +50,7 @@
     height: 2rem;
     width: 2rem;
     margin-left: .3rem;
-    fill: var(--color-primary);
+    fill: var( --color-orange);
   }
 }
 
@@ -64,12 +64,13 @@
     font-weight: 400;
     margin-bottom: 3rem;
     line-height: initial;
+    color: var(--color-blue-dark);
   }
 
   &__text {
     font-size: 2rem;
-    margin-bottom: 4rem;
-    color: #777;
+    margin-bottom: 5rem;
+    color: var(--color-gray-light);
   }
 
   &__hero {
@@ -86,9 +87,9 @@
   font-size: 1.2rem;
   font-weight: 300;
   text-transform: uppercase;
-  border-radius: 100px;
+  border-radius: 10px;
   border: none;
-  background-color: #de385c;
+  background-color: var(--color-orange);
   color: #fff;
   padding: 1.5rem 3.5rem;
   cursor: pointer;
@@ -99,9 +100,9 @@
   font-size: 1.2rem;
   font-weight: 300;
   text-transform: uppercase;
-  border-radius: 100px;
+  border-radius: 10px;
   border: none;
-  background-color: #83b1a1;
+  background-color: var(--color-green-dark-1);
   color: #fff;
   padding: 1.5rem 3.5rem;
   cursor: pointer;

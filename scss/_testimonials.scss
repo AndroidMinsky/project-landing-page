@@ -20,11 +20,12 @@
     &__text {
       font-size: 1.6rem;
       margin-top: 2rem;
+      color: var(--color-gray-light);
     }
   }
 
   &__review {
-    background-color: #e4f3eb;
+    background-color: var(--color-green-light-1);
     padding: 3rem;
     border-radius: 1rem;
 
@@ -35,6 +36,7 @@
     &__text {
       grid-column: 1 / -1;
       font-size: 1.5rem;
+      color: var(--color-blue-dark);
     }
   }
 
@@ -66,5 +68,6 @@
   &__name {
     font-size: 1.2rem;
     text-transform: uppercase;
+    color: var(--color-gray-light);
   }
 }

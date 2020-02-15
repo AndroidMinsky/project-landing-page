@@ -2,6 +2,14 @@
   --color-primary: #de385c;
   --color-secondary: #fff;
   --color-three: #83b1a1;
+  --color-green-light: #e9fffa;
+  --color-green-light-1: #e3faf6;
+  --color-green-dark: #589D98;
+  --color-green-dark-1: #70d5bd;
+  --color-orange: #f67163;
+  --color-light: #f2efe7;
+  --color-blue-dark: #2D3842;
+  --color-gray-light: #767676;
   --mb-s: 2rem;
   --mb-m: 3rem;
   --mb-l: 5rem;
@@ -38,15 +46,15 @@ body {
 
 .main {
   margin-top: 5rem;
-  background-image: url(/img/bg-main-1.png);
+  background-image: url(/img/bg-main-3.png);
   background-color: #fff;
   background-repeat: no-repeat;
   background-position: top center;
 }
 
 .footer {
-  background-color: #ebf3ff;
-  background-image: url(/img/bg-footer.png);
+  background-color: #ecfffa;
+  background-image: url(/img/bg-footer-3.png);
   background-repeat: no-repeat;
 }
 
@@ -54,6 +62,7 @@ body {
   font-size: 4rem;
   font-weight: 400;
   line-height: initial;
+  color: var(--color-blue-dark);
 }
 
 .blog {
@@ -82,6 +91,9 @@ body {
       grid-template-rows: repeat(4, -webkit-min-content);
       grid-template-rows: repeat(4, min-content);
   grid-row-gap: 3rem;
+  background-color: #f2efe7;
+  border-radius: 1rem;
+  padding: 3rem;
   -webkit-transition: all .2s;
   transition: all .2s;
 }
@@ -97,24 +109,6 @@ body {
   margin-left: 8px;
 }
 
-.blog__post--1 {
-  background-color: #fdf2f2;
-  border-radius: 1rem;
-  padding: 3rem;
-}
-
-.blog__post--2 {
-  background-color: #e4f3eb;
-  border-radius: 1rem;
-  padding: 3rem;
-}
-
-.blog__post--3 {
-  background-color: #eaf2ff;
-  border-radius: 1rem;
-  padding: 3rem;
-}
-
 .blog__img {
   width: 60%;
   grid-column: 1 / -1;
@@ -123,12 +117,14 @@ body {
 }
 
 .blog__author, .blog__date {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  color: var(--color-gray-light);
 }
 
 .blog__text {
   grid-column: 1 / -1;
   font-size: 1.5rem;
+  color: var(--color-blue-dark);
 }
 
 .blog__btn {
@@ -145,6 +141,7 @@ body {
   font-size: 1.5rem;
   border-bottom: 1px solid currentColor;
   padding-bottom: 2px;
+  color: var(--color-blue-dark);
 }
 
 .blog__btn span {
@@ -175,8 +172,9 @@ body {
 
 .download__text {
   font-size: 2rem;
-  margin: 3rem 0;
-  color: #777;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  color: var(--color-gray-light);
 }
 
 .download__btn--1 {
@@ -197,12 +195,13 @@ body {
   text-align: center;
   max-width: 50rem;
   margin: auto;
+  color: var(--color-blue-dark);
 }
 
 .experience__heading p {
   font-size: 1.5rem;
   margin-top: 2rem;
-  color: #777;
+  color: var(--color-gray-light);
 }
 
 .experience__items {
@@ -233,8 +232,8 @@ body {
 .experience__item:hover {
   background-color: #fff;
   border-radius: 1rem;
-  -webkit-box-shadow: 0 3rem 4rem #dde9ff;
-          box-shadow: 0 3rem 4rem #dde9ff;
+  -webkit-box-shadow: 0 3rem 4rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 3rem 4rem rgba(0, 0, 0, 0.1);
   -webkit-transform: translateY(-2rem);
           transform: translateY(-2rem);
 }
@@ -242,19 +241,20 @@ body {
 .experience__icon {
   width: 7rem;
   height: 7rem;
-  fill: #83b1a1;
+  fill: var(--color-green-dark-1);
   margin-bottom: 2rem;
 }
 
 .experience__item-heading {
   font-size: 2rem;
   font-weight: 400;
+  color: var(--color-blue-dark);
 }
 
 .experience__text {
   margin: 2rem 3rem;
   font-size: 1.5rem;
-  color: #777;
+  color: var(--color-blue-dark);
 }
 
 .features__img {
@@ -263,9 +263,13 @@ body {
   width: 45%;
 }
 
+.footer-section {
+  background-color: #589D98;
+}
+
 .header {
   min-height: 80vh;
-  background-image: url(/img/header-bg.png);
+  background-image: url(/img/bg-header-3.png);
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -313,7 +317,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #333;
+  color: var(--color-blue-dark);
   text-decoration: none;
   font-weight: 400;
 }
@@ -322,7 +326,7 @@ body {
   height: 2rem;
   width: 2rem;
   margin-left: .3rem;
-  fill: var(--color-primary);
+  fill: var(--color-orange);
 }
 
 .header-content {
@@ -340,12 +344,13 @@ body {
   font-weight: 400;
   margin-bottom: 3rem;
   line-height: initial;
+  color: var(--color-blue-dark);
 }
 
 .header-content__text {
   font-size: 2rem;
-  margin-bottom: 4rem;
-  color: #777;
+  margin-bottom: 5rem;
+  color: var(--color-gray-light);
 }
 
 .header-content__hero {
@@ -363,9 +368,9 @@ body {
   font-size: 1.2rem;
   font-weight: 300;
   text-transform: uppercase;
-  border-radius: 100px;
+  border-radius: 10px;
   border: none;
-  background-color: #de385c;
+  background-color: var(--color-orange);
   color: #fff;
   padding: 1.5rem 3.5rem;
   cursor: pointer;
@@ -376,9 +381,9 @@ body {
   font-size: 1.2rem;
   font-weight: 300;
   text-transform: uppercase;
-  border-radius: 100px;
+  border-radius: 10px;
   border: none;
-  background-color: #83b1a1;
+  background-color: var(--color-green-dark-1);
   color: #fff;
   padding: 1.5rem 3.5rem;
   cursor: pointer;
@@ -413,10 +418,11 @@ body {
 .testimonials__intro__text {
   font-size: 1.6rem;
   margin-top: 2rem;
+  color: var(--color-gray-light);
 }
 
 .testimonials__review {
-  background-color: #e4f3eb;
+  background-color: var(--color-green-light-1);
   padding: 3rem;
   border-radius: 1rem;
   display: -ms-grid;
@@ -430,6 +436,7 @@ body {
 .testimonials__review__text {
   grid-column: 1 / -1;
   font-size: 1.5rem;
+  color: var(--color-blue-dark);
 }
 
 .testimonials__img {
@@ -471,5 +478,6 @@ body {
 .testimonials__name {
   font-size: 1.2rem;
   text-transform: uppercase;
+  color: var(--color-gray-light);
 }
 /*# sourceMappingURL=main.css.map */

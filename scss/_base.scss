@@ -4,6 +4,15 @@
   --color-secondary: #fff;
   --color-three: #83b1a1;
 
+  --color-green-light: #e9fffa;
+  --color-green-light-1: #e3faf6;
+  --color-green-dark: #589D98;
+  --color-green-dark-1: #70d5bd;
+  --color-orange: #f67163;
+  --color-light: #f2efe7;
+  --color-blue-dark: #2D3842;
+  --color-gray-light: #767676;
+  
   // MARGINS
   --mb-s: 2rem;
   --mb-m: 3rem;
@@ -39,14 +48,14 @@ body {
 
 .main {
   margin-top: 5rem;
-  background-image: url(/img/bg-main-1.png);
+  background-image: url(/img/bg-main-3.png);
   background-color: #fff;
   background-repeat: no-repeat;
   background-position: top center;
 }
 
 .footer {
-  background-color: #ebf3ff;
-  background-image: url(/img/bg-footer.png);
+  background-color: #ecfffa;
+  background-image: url(/img/bg-footer-3.png);
   background-repeat: no-repeat;
 }
