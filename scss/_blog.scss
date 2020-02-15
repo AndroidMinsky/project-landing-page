@@ -18,7 +18,7 @@
     grid-template-rows: repeat(4, min-content);
     grid-row-gap: 3rem;
 
-    background-color: #f2efe7;
+    background-color: #fff7ec;
     border-radius: 1rem;
     padding: 3rem;
     transition: all .2s;
@@ -82,7 +82,7 @@
     font-size: 1.5rem;
     border-bottom: 1px solid currentColor;
     padding-bottom: 2px;
-    color: var(--color-blue-dark);
+    color: var(--color-orange);
 
     & span {
       margin-left: 3px;

@@ -1,3 +1,100 @@
-.footer-section {
-  background-color: #589D98;
+.footerr {
+  background-color: #fef6e8;
+  filter: brightness(90%);
+  font-size: 1.5rem;
+  padding-top: 7rem;
+
+  &__menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+  }
+
+  &__cols {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10rem;
+  }
+
+  &__contact {
+
+    &-list {
+      list-style: none;
+    }
+
+    &-item {
+
+    }
+  }
+
+  &__heading {
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--color-blue-dark);
+    margin-bottom: 2rem;
+  }
+
+  &__links {
+    
+
+    &-list {
+      list-style: none;
+    }
+
+    &-item {
+
+      &-link {
+
+      }
+    }
+  }
+
+  &__social {
+    align-self: flex-end;
+  }
+
+  &__icon {
+    height: 4rem;
+    width: 4rem;
+
+    &:not(:last-child) {
+      margin-right: 2.5rem;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+
+    &-list {
+      display: flex;
+      flex-direction: row;
+
+      list-style: none;
+    }
+
+    &-item {
+      &:not(:last-child) {
+        margin-right: 2.5rem;
+      }
+
+      &-link {
+
+      }
+    }
+  }
+
+  &__navigation {
+    
+  }
+
+  &__logo {
+
+  }
+
+  &__copy {
+
+  }
 }
