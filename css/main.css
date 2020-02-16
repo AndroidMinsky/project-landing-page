@@ -269,6 +269,7 @@ body {
           filter: brightness(90%);
   font-size: 1.5rem;
   padding-top: 7rem;
+  color: var(--color-gray-light);
 }
 
 .footerr__menu {
@@ -304,6 +305,18 @@ body {
   list-style: none;
 }
 
+.footerr__links-item-link:link, .footerr__links-item-link:visited {
+  color: var(--color-gray-light);
+  text-decoration: none;
+  display: inline-block;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.footerr__links-item-link:hover, .footerr__links-item-link:active {
+  color: var(--color-blue-dark);
+}
+
 .footerr__social {
   -ms-flex-item-align: end;
       align-self: flex-end;
@@ -312,10 +325,18 @@ body {
 .footerr__icon {
   height: 4rem;
   width: 4rem;
+  fill: var(--color-gray-light);
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 .footerr__icon:not(:last-child) {
   margin-right: 2.5rem;
+}
+
+.footerr__icon:hover {
+  fill: var(--color-blue-dark);
+  cursor: pointer;
 }
 
 .footerr__nav {
@@ -329,6 +350,9 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
   padding-bottom: 4rem;
 }
 
@@ -345,6 +369,23 @@ body {
 
 .footerr__nav-item:not(:last-child) {
   margin-right: 2.5rem;
+}
+
+.footerr__nav-item-link:link, .footerr__nav-item-link:visited {
+  color: var(--color-gray-light);
+  text-decoration: none;
+  display: inline-block;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.footerr__nav-item-link:hover, .footerr__nav-item-link:active {
+  color: var(--color-blue-dark);
+}
+
+.footerr__logo-img {
+  width: 5rem;
+  height: auto;
 }
 
 .header {
@@ -365,6 +406,9 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   padding-top: 5rem;
   margin-bottom: var(--mb-l);
 }
@@ -373,6 +417,11 @@ body {
   color: #000;
   font-size: 4rem;
   font-weight: 400;
+}
+
+.logo-box-img {
+  width: 18rem;
+  height: auto;
 }
 
 .top-nav {
