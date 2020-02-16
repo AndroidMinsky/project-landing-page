@@ -294,6 +294,10 @@ body {
   list-style: none;
 }
 
+.footerr__contact-item {
+  margin-bottom: .8rem;
+}
+
 .footerr__heading {
   font-size: 2rem;
   font-weight: 400;
@@ -303,6 +307,10 @@ body {
 
 .footerr__links-list {
   list-style: none;
+}
+
+.footerr__links-item {
+  margin-bottom: .8rem;
 }
 
 .footerr__links-item-link:link, .footerr__links-item-link:visited {
