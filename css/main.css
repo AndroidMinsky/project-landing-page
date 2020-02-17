@@ -443,8 +443,25 @@ body {
   font-size: 1.6rem;
 }
 
+.top-nav__item {
+  padding: .5rem 1rem;
+  cursor: pointer;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
 .top-nav__item:not(:last-child) {
-  margin-right: 4.3rem;
+  margin-right: 2.3rem;
+}
+
+.top-nav__item:hover {
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.top-nav__current {
+  background-color: #fff;
+  border-radius: 1rem;
 }
 
 .top-nav__link:link, .top-nav__link:visited {
@@ -512,6 +529,12 @@ body {
   padding: 1.5rem 3.5rem;
   cursor: pointer;
   margin-right: 2rem;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.btn-cta:hover {
+  background-color: #d46256;
 }
 
 .btn-secondary {
@@ -524,6 +547,12 @@ body {
   color: #fff;
   padding: 1.5rem 3.5rem;
   cursor: pointer;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.btn-secondary:hover {
+  background-color: #6f9487;
 }
 
 .testimonials {

@@ -37,9 +37,24 @@
   font-size: 1.6rem;
 
   &__item {
+    padding: .5rem 1rem;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+
     &:not(:last-child) {
-      margin-right: 4.3rem;
+      margin-right: 2.3rem;
     }
+
+    &:hover {
+      background-color: #fff;
+      border-radius: 1rem;
+    }
+  }
+
+  &__current {
+    
+    background-color: #fff;
+    border-radius: 1rem;
   }
 
   &__link:link,
@@ -100,6 +115,11 @@
   padding: 1.5rem 3.5rem;
   cursor: pointer;
   margin-right: 2rem;
+  transition: all .2s ease-in-out;
+
+  &:hover {
+    background-color: #d46256;
+  }
 }
 
 .btn-secondary {
@@ -112,4 +132,9 @@
   color: #fff;
   padding: 1.5rem 3.5rem;
   cursor: pointer;
+  transition: all .2s ease-in-out;
+
+  &:hover {
+    background-color: #6f9487;
+  }
 } 
