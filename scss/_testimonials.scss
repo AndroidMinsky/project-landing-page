@@ -1,5 +1,5 @@
 .testimonials {
-  margin-bottom: var(--mb-xl);
+  margin-bottom: var(--mb-l);
 
   &__content {
     display: grid;
@@ -12,6 +12,10 @@
     flex-direction: column;
     justify-content: center;
     margin: 0 10rem;
+
+    @media only screen and (max-width: $bp-large) {
+      margin: 0 5rem;
+    }
 
     &__heading {
       

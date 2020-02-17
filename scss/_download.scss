@@ -1,16 +1,47 @@
 .download {
   display: grid;
-  grid-template-columns: minmax(36vw, 1fr) 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(47rem, 1fr));
   grid-column-gap: 5rem;
   justify-items: center;
   align-items: center;
 
   margin-bottom: var(--mb-xl);
 
+  @media only screen and (max-width: $bp-medium) {
+    grid-template-columns: 1fr;
+    margin-bottom: var(--mb-l);
+  }
+
+  &__image {
+    @media only screen and (max-width: $bp-medium) {
+      grid-column: 1;
+      grid-row: 1;
+    }
+  }
+
+  &__content {
+    @media only screen and (max-width: $bp-medium) {
+      grid-column: 1;
+      grid-row: 1;
+      text-align: center;
+      margin: 0 14rem;
+      background-color: #fff;
+      padding: 5rem;
+      border-radius: 1rem;
+      z-index: 10;
+    }
+  }
+
   &__img {
     object-fit: cover;
     width: 100%;
     height: 100%;
+
+    @media only screen and (max-width: $bp-medium) {
+      opacity: .3;
+      width: 100%;
+      z-index: 5;
+    }
   }
 
   &__text {
@@ -18,6 +49,10 @@
     margin-top: 3rem;
     margin-bottom: 5rem;
     color: var(--color-gray-light);
+
+    @media only screen and (max-width: $bp-medium) {
+      color: var(--color-blue-dark);
+    }
   }
 
   &__btn--1 {
