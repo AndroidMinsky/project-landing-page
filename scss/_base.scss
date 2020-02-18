@@ -21,10 +21,13 @@
 }
 
 // RESPONSIVE BREAKPOINTS
-$bp-largest: 75em;   // 1200px
-$bp-large: 58.75em;  // 940px
-$bp-medium: 56.25em; // 900px
-$bp-small: 37.5em;   // 600px
+$bp-largest: 75em;      // 1200px
+$bp-large: 58.75em;     // 940px
+$bp-medium: 56.25em;    // 900px
+$bp-small: 51.4375em;   // 823px
+$bp-small-2: 46.875em;  // 750px
+$bp-small-3: 40.625em;  // 650px
+$bp-small-4: 40.625em;  // 490px
 
 *,
 *::before,

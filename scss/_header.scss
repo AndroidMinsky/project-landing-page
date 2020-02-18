@@ -10,6 +10,14 @@
   @media only screen and (max-width: $bp-medium) {
     margin-bottom: var(--mb-l);
   }
+
+  @media only screen and (max-width: $bp-small-2) {
+    min-height: 75vh;
+  }
+
+  @media only screen and (max-width: $bp-small-3) {
+    min-height: 72vh;
+  }
 }
 
 .navigation {
@@ -23,6 +31,10 @@
 
   @media only screen and (max-width: $bp-medium) {
     margin-bottom: var(--mb-m);
+  }
+
+  @media only screen and (max-width: $bp-small-3) {
+    margin-bottom: var(--mb-l);
   }
 }
 
@@ -48,6 +60,10 @@
     padding: .5rem 1rem;
     cursor: pointer;
     transition: all .2s ease-in-out;
+
+    @media only screen and (max-width: $bp-medium) {
+      display: none;
+    }
 
     &:not(:last-child) {
       margin-right: 2.3rem;
@@ -83,18 +99,47 @@
   }
 }
 
+.burger-menu {
+  background-color: var(--color-orange);
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all .2s;
+  display: none;
+
+  @media only screen and (max-width: $bp-medium) {
+    display: block;
+  }
+
+  &:hover {
+    background-color: #d46256;
+  }
+
+  &__bar {
+    width: 3.5rem;
+    height: .4rem;
+    background-color: #fff;
+    margin: .6rem 0;
+  }
+}
+
 .header-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
 
   &__main {
+    z-index: 20;
 
     @media only screen and (max-width: $bp-medium) {
       grid-column: 1 / -1;
       grid-row: 1;
       text-align: center;
       margin: 0 14rem;
+    }
+
+    @media only screen and (max-width: $bp-small-2) {
+      margin: 0 5rem;
     }
   }
 
@@ -104,6 +149,10 @@
     margin-bottom: 3rem;
     line-height: initial;
     color: var(--color-blue-dark);
+
+    @media only screen and (max-width: $bp-small-3) {
+      font-size: 4.5rem;
+    }
   }
 
   &__text {
@@ -114,7 +163,7 @@
 
   &__hero {
     display: grid;
-    z-index: 10;
+    z-index: 15;
 
     @media only screen and (max-width: $bp-medium) {
       grid-column: 2;
