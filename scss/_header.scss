@@ -20,7 +20,7 @@
   }
 
   @media only screen and (max-width: $bp-small-4) {
-    min-height: 70vh;
+    min-height: 69vh;
     margin-bottom: var(--mb-xl);
   }
 }
@@ -40,6 +40,10 @@
 
   @media only screen and (max-width: $bp-small-3) {
     margin-bottom: var(--mb-l);
+  }
+
+  @media only screen and (max-width: $bp-small-4) {
+    padding-top: 3rem;
   }
 }
 

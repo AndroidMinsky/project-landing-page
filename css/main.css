@@ -605,7 +605,7 @@ body {
 
 @media only screen and (max-width: 30.625em) {
   .header {
-    min-height: 70vh;
+    min-height: 69vh;
     margin-bottom: var(--mb-xl);
   }
 }
@@ -635,6 +635,12 @@ body {
 @media only screen and (max-width: 40.625em) {
   .navigation {
     margin-bottom: var(--mb-l);
+  }
+}
+
+@media only screen and (max-width: 30.625em) {
+  .navigation {
+    padding-top: 3rem;
   }
 }
 
