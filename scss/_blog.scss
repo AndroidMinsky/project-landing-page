@@ -50,13 +50,13 @@
 
   &__author,
   &__date {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: var(--color-gray-light);
   }
 
   &__text {
     grid-column: 1 / -1;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color: var(--color-blue-dark);
   }
 
@@ -69,7 +69,7 @@
     background: none;
     cursor: pointer;
     transition: all .2s;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     border-bottom: 1px solid currentColor;
     padding-bottom: 2px;
     color: var(--color-orange);

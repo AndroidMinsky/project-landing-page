@@ -7,7 +7,7 @@
   }
 
   @media only screen and (max-width: $bp-small-4) {
-    margin-bottom: var(--mb-m);
+    margin-bottom: 3rem;
   }
 
   &__heading {
@@ -17,7 +17,7 @@
     color: var(--color-blue-dark);
 
     p {
-      font-size: 1.5rem;
+      font-size: 1.7rem;
       margin-top: 2rem;
       color: var( --color-gray-light);
     }
@@ -62,14 +62,14 @@
   }
 
   &__item-heading {
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 400;
     color: var(--color-blue-dark);
   }
 
   &__text {
     margin: 2rem 3rem;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color: var(--color-blue-dark);
   }
 }
