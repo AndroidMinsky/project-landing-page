@@ -92,6 +92,12 @@ body {
   margin-bottom: 8rem;
 }
 
+@media only screen and (max-width: 30.625em) {
+  .blog__heading {
+    margin-bottom: 4rem;
+  }
+}
+
 .blog__posts {
   display: -ms-grid;
   display: grid;
@@ -399,7 +405,7 @@ body {
   -webkit-filter: brightness(90%);
           filter: brightness(90%);
   font-size: 1.7rem;
-  padding-top: 7rem;
+  padding-top: 4rem;
   color: var(--color-gray-light);
 }
 
@@ -606,7 +612,6 @@ body {
 
 @media only screen and (max-width: 30.625em) {
   .header {
-    min-height: 69vh;
     margin-bottom: var(--mb-xl);
   }
 }
