@@ -16,6 +16,10 @@
     margin-bottom: 7rem;
   }
 
+  @media only screen and (max-width: $bp-small-4) {
+    margin-bottom: var(--mb-m);
+  }
+
   &__image {
     @media only screen and (max-width: $bp-medium) {
       grid-column: 1;
@@ -67,9 +71,19 @@
     }
   }
 
+  &__buttons {
+    @media only screen and (max-width: $bp-small-4) {
+      text-align: center;
+    }
+  }
+
   &__btn--1 {
     height: 5rem;
     margin-right: 1rem;
+
+    @media only screen and (max-width: $bp-small-4) {
+      margin: 0;
+    }
   }
 
   &__btn--2 {

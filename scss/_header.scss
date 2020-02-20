@@ -18,6 +18,11 @@
   @media only screen and (max-width: $bp-small-3) {
     min-height: 72vh;
   }
+
+  @media only screen and (max-width: $bp-small-4) {
+    min-height: 65vh;
+    margin-bottom: var(--mb-xl);
+  }
 }
 
 .navigation {
@@ -140,6 +145,10 @@
 
     @media only screen and (max-width: $bp-small-2) {
       margin: 0 5rem;
+    }
+
+    @media only screen and (max-width: $bp-small-4) {
+      margin: 0;
     }
   }
 
